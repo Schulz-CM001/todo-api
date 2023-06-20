@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mit Onur gemacht und Spass gehabt</title>
+</head>
+
+<body>
+
+    <head>
+        <h1>Todo App</h1>
+    </head>
+    <main>
+        <h2>Meine Filter</h2>
+        <div id="div-filter">
+            <input type="radio" id="input-all" name="filter" value="All">
+            <label for="label-all">All</label><br>
+            <input type="radio" id="input-open" name="filter" value="Open">
+            <label for="label-open">Open</label><br>
+            <input type="radio" id="input-done" name="filter" value="Done">
+            <label for="label-done">Done</label>
+        </div>
+
+        <button type="button" id="remove-button">Remove done Todos</button>
+        <br>
+
+        <input type="text" placeholder="Whats UP?" id="input-field">
+        <button type="button" id="add-button">Add</button>
+        <br>
+
+        <ul id="todo-list">
+        </ul>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

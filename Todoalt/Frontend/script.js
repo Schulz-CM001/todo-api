@@ -54,4 +54,3 @@ todoList.innerHTML = "";
 
 
 loadTodos();
-
